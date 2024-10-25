@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FBPixelEventLoggerAndroid</string>
+    <string name="facebook_app_id">512113661800160</string>
+    <string name="fb_login_protocol_scheme">fb512113661800160</string>
+    <string name="facebook_client_token">802d6e915901bbc8a2892d6924a42bc8</string>
+</resources>
