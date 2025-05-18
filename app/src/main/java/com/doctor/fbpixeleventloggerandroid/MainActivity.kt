@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         logCustomEvent("RUN_BY_JENKINS")
+        logCustomEvent("RUN_BY_JENKINS_SECOND")
         logCustomEvent("HomeScreen_Android")
     }
 
