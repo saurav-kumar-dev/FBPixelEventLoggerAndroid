@@ -16,10 +16,17 @@ pipeline {
             }
         }
 
+        stage('Debug APK Path') {
+            steps {
+                echo 'Listing APK path for verification...'
+                bat 'dir /s /b app\\build\\outputs\\apk\\debug'
+            }
+        }
+
         stage('Archive APK') {
             steps {
                 echo 'Archiving APK...'
-                archiveArtifacts artifacts: '*/build/outputs/apk/debug/.apk', fingerprint: true
+                archiveArtifacts artifacts: 'app/build/outputs/apk/debug/app-debug.apk', fingerprint: true
             }
         }
     }
