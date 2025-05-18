@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        logCustomEvent("HomeScreen_Android")
+        logCustomEvent("HomeScreen_Android_Log")
     }
 
     private fun logCustomEvent(eventName: String) {
